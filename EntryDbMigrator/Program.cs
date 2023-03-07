@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 static ServiceProvider CreateServices()
 {
-    string connectionString = "Server=127.0.0.1;Database=CONTA;User Id=sa;Password=C@modor0;";
+    string connectionString = "Server=127.0.0.1;Database=CONTA;User Id=sa;Password=yourStrong(!)Password;";
     return new ServiceCollection()
         // Add common FluentMigrator services
         .AddFluentMigratorCore()
